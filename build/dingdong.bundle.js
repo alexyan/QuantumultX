@@ -1,1 +1,1 @@
-$notify("叮咚",$response.body),$done();
+$notify("叮咚",$response.body),$done({});
