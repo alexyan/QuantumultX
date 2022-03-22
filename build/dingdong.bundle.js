@@ -1,1 +1,1 @@
-console.log("dingdong");
+$notify("叮咚"),$done();
