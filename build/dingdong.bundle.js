@@ -1,1 +1,1 @@
-$notify("叮咚",$request.url,$response.body),$done({});
+$notify("叮咚",$request.url,$response.body),console.log(JSON.stringify($request.headers)),$done({});
