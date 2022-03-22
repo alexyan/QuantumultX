@@ -1,7 +1,0 @@
-{
-  "name":"alexyan",
-  "description":"Crontab Task Gallery",
-  "task":[
-      "22 0 * * * https://raw.githubusercontent.com/alexyan/QuantumultX/main/script/dingdong/dingdong_checkin.js, tag=叮咚买菜, img-url=https://raw.githubusercontent.com/alexyan/QuantumultX/master/images/Task/ddmc.png"
-  ]
-}
