@@ -1,1 +1,1 @@
-(()=>{const e=JSON.parse($response.body);$notify("叮咚",$response.code,e.data.length),$done({})})();
+$notify("叮咚",$response.code,$response.body),$done({});
