@@ -2,6 +2,6 @@
 
 // $notify('叮咚', $request.url, $response.body)
 
-$notify('叮咚', typeof $response.body)
+$notify('叮咚', $response.body)
 
 $done()
