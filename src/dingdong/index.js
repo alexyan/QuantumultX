@@ -2,4 +2,6 @@
 
 // $notify('叮咚', $request.url, $response.body)
 
-$notify('叮咚')
+// $notify('叮咚')
+
+console.log('dingdong')
