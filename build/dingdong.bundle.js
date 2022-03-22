@@ -1,1 +1,1 @@
-$notify("叮咚",$request.url,$response.body),console.log(JSON.stringify($request.headers)),$done({});
+(()=>{const e="dingdong-logistics";$prefs.setValueForKey(e,JSON.stringify({url:$request.url,headers:$request.headers,body:$response.body})),$notify("叮咚",$request.url,$prefs.valueForKey(e)),$done({})})();
